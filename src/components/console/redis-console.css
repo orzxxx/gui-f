@@ -1,0 +1,15 @@
+.myQuill > .ql-toolbar {
+    display: none;
+}
+
+.myQuill > .ql-container {
+    border-top: 1px solid #ccc !important;
+    height: 75vh;
+    margin-bottom: 2vh;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.myQuill > .ql-container > .ql-editor {
+    overflow-y: auto;
+}
